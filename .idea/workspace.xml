@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProjectSweeper:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c24ad790-589b-4ce5-be45-879000eb5ff8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ProjectSweeper_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ProjectSweeper_jar/ProjectSweeper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/flaged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/flaged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Bomb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Coord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Flag$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Flag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Game$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/GameStat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Matrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Ranges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/flaged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/img/zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Coord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Flag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/GameStat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sweeper/Ranges.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaSweeper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/GameStat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Flag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <folding>
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Matrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Bomb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Ranges.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Coord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sweeper/Box.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+              <folding>
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sweeper/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/Ranges.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/Coord.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/GameStat.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/Bomb.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/Box.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/Flag.java" />
+        <option value="$PROJECT_DIR$/src/sweeper/Game.java" />
+        <option value="$PROJECT_DIR$/src/JavaSweeper.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="143" />
+    <option name="y" value="-8" />
+    <option name="width" value="683" />
+    <option name="height" value="720" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaSweeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectSweeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555854250502" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JavaSweeper" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSweeper" />
+      <module name="ProjectSweeper" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c24ad790-589b-4ce5-be45-879000eb5ff8" name="Default Changelist" comment="" />
+      <created>1555836559638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555836559638</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/img/bomb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../MineSweeper/Исходник/MineSweeper2000/src/JavaSweeper.java" />
+    <entry file="file://$PROJECT_DIR$/src/JavaSweeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/GameStat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Flag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding>
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Ranges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Coord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sweeper/Bomb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ProjectSweeper:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ProjectSweeper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
