@@ -13,7 +13,7 @@ Title of the Project
 	   
 Topic addressed by the project
 
-	Classes, OOP, GUI, Functions, File import.	 
+	Minesweeper is a funny game which develop logical thinking of a person	 
   
 Background
 
