@@ -17,18 +17,23 @@ Topic addressed by the project
   
 Background
 
+        In my childhood I hated this game because I didn’t understand the rules and couldn’t win. So now it’s time to get my revenge…  
 		   
 Aim of the project (what)
 
+        The aim of the project is to help people spend their time with fun and develop logical thinking at the same time.
 		   
 Objectives of the project (why)
 
+        We’ve all been in the situation while we are bored sitting at the computer and doing nothing, because simple “Пасьянс” have been         played a thousand times.
 		   
 Expected outcomes
 
+        Millions of smiles.
 		   
 Proposed activities
 
+        Project Presentation
 		   
 Estimative budget
 
