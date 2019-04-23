@@ -22,6 +22,7 @@ public class Game
         flag = new Flag();
 
         expl = new Audio("res/Sounds/explosion.wav",1.0);
+        klick = new Audio("res/Sounds/klick.wav",1.0);
     }
 
     public void start()
@@ -43,6 +44,8 @@ public class Game
     public void pressLeftButton (Coord coord)
     {
         if (gameOver()) return;
+        klick.sound();
+        klick.setVolume();
         openBox (coord);
         checkWinner();
     }
@@ -91,7 +94,6 @@ public class Game
                 flag.setOpenedToClosedBombBox (coord);
             else
                 flag.setNobombToFlagedSafeBox (coord);
-        String str = "Game Over!";
     }
 
     private void openBoxesAround(Coord coord)
