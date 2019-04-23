@@ -12,6 +12,7 @@ public class JavaSweeper extends JFrame
 {
     private Game game;
     private JPanel panel;
+    private JMenu menu;
     private JLabel label;
 
     private final int COLS = 9;

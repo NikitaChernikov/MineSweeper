@@ -8,6 +8,7 @@ public class Game
 
     public static Audio expl;
     public static Audio klick;
+    public static Audio mark;
 
     private GameStat state;
     public GameStat getState()
@@ -23,6 +24,7 @@ public class Game
 
         expl = new Audio("res/Sounds/explosion.wav",1.0);
         klick = new Audio("res/Sounds/klick.wav",1.0);
+        mark = new Audio("res/sounds/mark.wav",1.0);
     }
 
     public void start()
@@ -106,6 +108,8 @@ public class Game
     public void pressRightButton (Coord coord)
     {
         if (gameOver()) return;
+        mark.sound();
+        mark.setVolume();
         flag.toggleFlagedToBox (coord);
     }
 
