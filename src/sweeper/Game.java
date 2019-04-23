@@ -1,11 +1,13 @@
 package sweeper;
 
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 
 public class Game
 {
     private Bomb bomb;
     private Flag flag;
+
+    public static Audio expl;
+    public static Audio klick;
 
     private GameStat state;
     public GameStat getState()
@@ -18,6 +20,8 @@ public class Game
         Ranges.setSize(new Coord(cols, rows));
         bomb = new Bomb(bombs);
         flag = new Flag();
+
+        expl = new Audio("res/Sounds/explosion.wav",1.0);
     }
 
     public void start()
@@ -25,6 +29,7 @@ public class Game
        bomb.start();
        flag.start();
        state = GameStat.PLAYED;
+
     }
 
     public Box getBox (Coord coord)
@@ -39,10 +44,10 @@ public class Game
     {
         if (gameOver()) return;
         openBox (coord);
-        chackWinner();
+        checkWinner();
     }
 
-    private void chackWinner()
+    private void checkWinner()
     {
         if (state == GameStat.PLAYED)
             if (flag.getCountOfClosedBoxes() == bomb.getTotalBombs())
@@ -77,6 +82,8 @@ public class Game
 
     private void openBombs(Coord bombed)
     {
+        expl.sound();
+        expl.setVolume();
         state = GameStat.BOMBED;
         flag.setBombedToBox(bombed);
         for (Coord coord : Ranges.getAllCoords())
@@ -84,6 +91,7 @@ public class Game
                 flag.setOpenedToClosedBombBox (coord);
             else
                 flag.setNobombToFlagedSafeBox (coord);
+        String str = "Game Over!";
     }
 
     private void openBoxesAround(Coord coord)
