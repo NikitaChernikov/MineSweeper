@@ -9,6 +9,8 @@ public class Game
     public static Audio expl;
     public static Audio klick;
     public static Audio mark;
+    public static Audio back;
+    public static Audio win;
 
     private GameStat state;
     public GameStat getState()
@@ -25,14 +27,19 @@ public class Game
         expl = new Audio("res/Sounds/explosion.wav",1.0);
         klick = new Audio("res/Sounds/klick.wav",1.0);
         mark = new Audio("res/sounds/mark.wav",1.0);
+        back = new Audio("res/sounds/fone.wav",0.8);
+        win = new Audio("res/Sounds/winsound.wav",1);
     }
 
     public void start()
     {
+       back.play();
+       back.setVolume();
+       back.repeat();
+
        bomb.start();
        flag.start();
        state = GameStat.PLAYED;
-
     }
 
     public Box getBox (Coord coord)
@@ -45,6 +52,7 @@ public class Game
 
     public void pressLeftButton (Coord coord)
     {
+        if (state == GameStat.WINNER) win.stop();
         if (gameOver()) return;
         klick.sound();
         klick.setVolume();
@@ -55,8 +63,12 @@ public class Game
     private void checkWinner()
     {
         if (state == GameStat.PLAYED)
-            if (flag.getCountOfClosedBoxes() == bomb.getTotalBombs())
+            if (flag.getCountOfClosedBoxes() == bomb.getTotalBombs()) {
                 state = GameStat.WINNER;
+                back.stop();
+                win.play();
+                win.setVolume();
+            }
     }
 
     private void openBox (Coord coord)
@@ -87,6 +99,7 @@ public class Game
 
     private void openBombs(Coord bombed)
     {
+        back.stop();
         expl.sound();
         expl.setVolume();
         state = GameStat.BOMBED;
