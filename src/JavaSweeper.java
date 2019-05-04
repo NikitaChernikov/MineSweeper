@@ -12,13 +12,20 @@ public class JavaSweeper extends JFrame
 {
     private Game game;
     private JPanel panel;
-    private JMenu menu;
     private JLabel label;
+
+    private enum STATE{
+        MENU,
+        GAME
+    };
+
+    private STATE State = STATE.MENU;
 
     private final int COLS = 9;
     private final int ROWS = 9;
     private final int BOMBS = 10;
     private final int IMAGE_SIZE = 50;
+    private final int START_SIZE = 300;
 
     public static void main(String[] args)
     {
@@ -27,12 +34,12 @@ public class JavaSweeper extends JFrame
 
     private JavaSweeper()
     {
-        game = new Game(COLS, ROWS, BOMBS);
-        game.start();
-        setImages();
-        initLabel();
-        initPanel();
-        initFrame();
+            game = new Game(COLS, ROWS, BOMBS);
+            game.start();
+            setImages();
+            initLabel();
+            initPanel();
+            initFrame();
     }
 
     private void initLabel()
@@ -46,34 +53,42 @@ public class JavaSweeper extends JFrame
         panel = new JPanel()
         {
             @Override
-            protected void paintComponent(Graphics g)
-            {
-                super.paintComponent(g);
+            protected void paintComponent(Graphics g) {
+                if (State == STATE.GAME) {
+                    super.paintComponent(g);
                     for (Coord coord : Ranges.getAllCoords()) {
                         g.drawImage((Image) game.getBox(coord).image,
                                 coord.x * IMAGE_SIZE, coord.y * IMAGE_SIZE, this);
                     }
+                }
+                else if (State == STATE.MENU){
+                    super.paintComponent(g);
+                    g.drawImage(getImage("start"),85,85,this);
+                }
             }
         };
-
-        panel.addMouseListener(new MouseAdapter()
-        {
-            @Override
-            public void mousePressed(MouseEvent e)
-            {
-                int x = e.getX() / IMAGE_SIZE;
-                int y = e.getY() / IMAGE_SIZE;
-                Coord coord = new Coord(x,y);
-                if (e.getButton() == MouseEvent.BUTTON1)
-                    game.pressLeftButton (coord);
-                if (e.getButton() == MouseEvent.BUTTON3)
-                    game.pressRightButton (coord);
-                if (e.getButton() == MouseEvent.BUTTON2)
-                    game.start();
-                label.setText(getMessage());
-                panel.repaint();
-            }
-        });
+            panel.addMouseListener(new MouseAdapter() {
+                @Override
+                public void mousePressed(MouseEvent e) {
+                    int x = e.getX() / IMAGE_SIZE;
+                    int y = e.getY() / IMAGE_SIZE;
+                    Coord coord = new Coord(x, y);
+                    if (State == STATE.GAME) {
+                        if (e.getButton() == MouseEvent.BUTTON1)
+                            game.pressLeftButton(coord);
+                        if (e.getButton() == MouseEvent.BUTTON3)
+                            game.pressRightButton(coord);
+                        if (e.getButton() == MouseEvent.BUTTON2)
+                            game.start();
+                        label.setText(getMessage());
+                        panel.repaint();
+                    }
+                    else if (State == STATE.MENU){
+                        State = STATE.GAME;
+                        panel.repaint();
+                    }
+                }
+            });
         panel.setPreferredSize(new Dimension(
                 Ranges.getSize().x * IMAGE_SIZE,
                 Ranges.getSize().y * IMAGE_SIZE));
