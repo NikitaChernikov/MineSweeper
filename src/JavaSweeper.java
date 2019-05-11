@@ -25,7 +25,6 @@ public class JavaSweeper extends JFrame
     private final int ROWS = 9;
     private final int BOMBS = 10;
     private final int IMAGE_SIZE = 50;
-    private final int START_SIZE = 300;
 
     public static void main(String[] args)
     {
@@ -40,6 +39,9 @@ public class JavaSweeper extends JFrame
             initLabel();
             initPanel();
             initFrame();
+            if (State == STATE.MENU){
+                getImage("start");
+            }
     }
 
     private void initLabel()
