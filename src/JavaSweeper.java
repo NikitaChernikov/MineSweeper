@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
@@ -65,7 +67,7 @@ public class JavaSweeper extends JFrame
                 }
                 else if (State == STATE.MENU){
                     super.paintComponent(g);
-                    g.drawImage(getImage("start"),130,130,this);
+                    g.drawImage(getImage("start"),(COLS* IMAGE_SIZE)/4,(ROWS* IMAGE_SIZE)/4,this);
                 }
             }
         };
@@ -110,6 +112,33 @@ public class JavaSweeper extends JFrame
 
     private void initFrame()
     {
+        JMenu file = new JMenu("file");
+        JMenu about = new JMenu("about");
+
+        file.add(new JMenuItem("Save", 'S'));
+        JMenu options = new JMenu("Options");
+        file.add(options);
+        options.add("easy");
+        options.add("hard");
+        file.addSeparator();
+        JMenuItem exit = file.add(new JMenuItem("exit"));
+        exit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+        exit.setAccelerator(KeyStroke.getKeyStroke("ctrl E"));
+
+
+
+        JMenuBar jMenuBar = new JMenuBar();
+        setJMenuBar(jMenuBar);
+        revalidate();
+        jMenuBar.add(file);
+        jMenuBar.add(about);
+
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("Java Sweeper");
         setResizable(false);
@@ -131,4 +160,5 @@ public class JavaSweeper extends JFrame
         ImageIcon icon = new ImageIcon(getClass().getResource(filename));
         return icon.getImage();
     }
+
 }

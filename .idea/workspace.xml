@@ -6,44 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c24ad790-589b-4ce5-be45-879000eb5ff8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/JavaSweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/Sounds/explosion.wav" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/Sounds/explosion.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/bomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/bombed.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/bombed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/closed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/flaged.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/flaged.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/bomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/bombed.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/bombed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/closed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/flaged.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/flaged.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/nobomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/nobomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num7.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num8.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/num8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/img/zero.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/img/zero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/nobomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/nobomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num1.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num2.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num3.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num4.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num5.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num6.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num7.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/num8.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/num8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Game$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/sweeper/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectSweeper/zero.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectSweeper/zero.png" afterDir="false" />
-    </list>
+    <list default="true" id="c24ad790-589b-4ce5-be45-879000eb5ff8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,12 +22,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaSweeper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
+            <state relative-caret-position="425">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1787#2748#0" expanded="true" />
-                <element signature="e#2747#2748#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sweeper/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1462">
+            <state relative-caret-position="1394">
               <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
             </state>
           </provider>
@@ -211,9 +172,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,13 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557583303411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 13. Size of game panel changed. Bug with restart removed.">
+      <created>1557753957273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557753957273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -312,7 +281,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 10. All the sounds are added." />
     <MESSAGE value="Commit 12. Icons repainted." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 12. Icons repainted." />
+    <MESSAGE value="Commit 13. Size of game panel changed. Bug with restart removed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 13. Size of game panel changed. Bug with restart removed." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/res/img/bomb.png">
@@ -343,12 +313,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaSweeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="92" column="15" selection-start-line="92" selection-start-column="15" selection-end-line="92" selection-end-column="15" />
+        <state relative-caret-position="425">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1787#2748#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -374,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sweeper/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
+        <state relative-caret-position="1394">
           <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
         </state>
       </provider>
