@@ -21,9 +21,9 @@ public class JavaSweeper extends JFrame
 
     private STATE State = STATE.MENU;
 
-    private final int COLS = 9;
-    private final int ROWS = 9;
-    private final int BOMBS = 10;
+    private final int COLS = 11;
+    private final int ROWS = 11;
+    private final int BOMBS = 13;
     private final int IMAGE_SIZE = 50;
 
     public static void main(String[] args)
@@ -65,7 +65,7 @@ public class JavaSweeper extends JFrame
                 }
                 else if (State == STATE.MENU){
                     super.paintComponent(g);
-                    g.drawImage(getImage("start"),85,85,this);
+                    g.drawImage(getImage("start"),130,130,this);
                 }
             }
         };
@@ -86,8 +86,8 @@ public class JavaSweeper extends JFrame
                         panel.repaint();
                     }
                     else if (State == STATE.MENU){
-                        State = STATE.GAME;
-                        panel.repaint();
+                            State = STATE.GAME;
+                            panel.repaint();
                     }
                 }
             });
