@@ -25,7 +25,7 @@ public class JavaSweeper extends JFrame
 
     private final int COLS = 11;
     private final int ROWS = 11;
-    private final int BOMBS = 13;
+    private  int BOMBS = 13;
     private final int IMAGE_SIZE = 50;
 
     public static void main(String[] args)
@@ -115,11 +115,53 @@ public class JavaSweeper extends JFrame
         JMenu file = new JMenu("file");
         JMenu about = new JMenu("about");
 
-        file.add(new JMenuItem("Save", 'S'));
         JMenu options = new JMenu("Options");
         file.add(options);
-        options.add("easy");
-        options.add("hard");
+        JMenuItem easy = options.add(new JMenuItem("easy"));
+        easy.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Game.back.stop();
+                BOMBS = 5;
+                game = new Game(COLS, ROWS, BOMBS);
+                game.start();
+                setImages();
+                initLabel();
+                initPanel();
+                initFrame();
+                panel.repaint();
+            }
+        });
+        JMenuItem medium = options.add(new JMenuItem("medium"));
+        medium.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Game.back.stop();
+                BOMBS = 12;
+                game = new Game(COLS, ROWS, BOMBS);
+                game.start();
+                setImages();
+                initLabel();
+                initPanel();
+                initFrame();
+                panel.repaint();
+            }
+        });
+        JMenuItem hard = options.add(new JMenuItem("hard"));
+        hard.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Game.back.stop();
+                BOMBS = 20;
+                game = new Game(COLS, ROWS, BOMBS);
+                game.start();
+                setImages();
+                initLabel();
+                initPanel();
+                initFrame();
+                panel.repaint();
+            }
+        });
         file.addSeparator();
         JMenuItem exit = file.add(new JMenuItem("exit"));
         exit.addActionListener(new ActionListener() {

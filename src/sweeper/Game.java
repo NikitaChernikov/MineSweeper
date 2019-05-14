@@ -1,18 +1,11 @@
 package sweeper;
 
-/////////////////////////////
-import javax.swing.*;
-import java.awt.*;
-///////////////////////////////////
 
 public class Game
 {
     private Bomb bomb;
     private Flag flag;
 
-    ///////////////////////////////////////
-    private JPanel panel;
-    //////////////////////////////////////////
 
     public static Audio expl;
     public static Audio klick;
@@ -41,6 +34,7 @@ public class Game
 
     public void start()
     {
+        if (state == GameStat.PLAYED) back.stop();
        back.play();
        back.setVolume();
        back.repeat();
@@ -141,12 +135,4 @@ public class Game
         start();
         return true;
     }
-    /////////////////////////////////////////
-    private Image getImage (String name)
-    {
-        String filename = "img/" + name.toLowerCase() + ".png";
-        ImageIcon icon = new ImageIcon(getClass().getResource(filename));
-        return icon.getImage();
-    }
-    ///////////////////////////////////////////////
 }
