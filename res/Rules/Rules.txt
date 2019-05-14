@@ -1,0 +1,9 @@
+There is 11x11 field. Click on the desk to open it.
+Numbers in a box shows how many teachers around.Use
+flags to mark desk where you think teachers may be.
+Try to find all cheat sheets and do not be cought by 
+teachers.
+
+Left button - open desk
+Right button - flag the desk
+Middle button - restart
