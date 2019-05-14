@@ -101,10 +101,11 @@ public class Game
 
     private void openBombs(Coord bombed)
     {
+        state = GameStat.BOMBED;
         back.stop();
         expl.sound();
         expl.setVolume();
-        state = GameStat.BOMBED;
+
         flag.setBombedToBox(bombed);
         for (Coord coord : Ranges.getAllCoords())
             if (bomb.get(coord) == Box.BOMB)
