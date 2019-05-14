@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
 
 import sweeper.Box;
 import sweeper.Coord;
@@ -113,6 +114,18 @@ public class JavaSweeper extends JFrame
     {
         JMenu file = new JMenu("file");
         JMenu about = new JMenu("about");
+
+        JMenuItem rules = about.add(new JMenuItem("rules"));
+        rules.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    Desktop.getDesktop().open(new java.io.File("res/Rules/Rules.txt"));
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        });
 
         JMenu options = new JMenu("Options");
         file.add(options);
