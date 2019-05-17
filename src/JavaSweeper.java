@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
 import java.io.IOException;
 
 import sweeper.Box;
@@ -112,6 +113,9 @@ public class JavaSweeper extends JFrame
 
     private void initFrame()
     {
+
+        String separator = File.separator;
+
         JMenu file = new JMenu("file");
         JMenu about = new JMenu("about");
 
@@ -120,7 +124,7 @@ public class JavaSweeper extends JFrame
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    Desktop.getDesktop().open(new java.io.File("res/Rules/Rules.txt"));
+                    Desktop.getDesktop().open(new java.io.File("res" + separator + "Rules"+ separator + "Rules.txt"));
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
@@ -189,12 +193,13 @@ public class JavaSweeper extends JFrame
         JMenuBar jMenuBar = new JMenuBar();
         setJMenuBar(jMenuBar);
         revalidate();
+
         jMenuBar.add(file);
         jMenuBar.add(about);
 
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Java Sweeper");
+        setTitle("Cheat Sweeper");
         setResizable(false);
         setVisible(true);
         setIconImage(getImage("icon"));
@@ -210,7 +215,8 @@ public class JavaSweeper extends JFrame
 
     private Image getImage (String name)
     {
-        String filename = "img/" + name.toLowerCase() + ".png";
+        String separator = File.separator;
+        String filename = separator + "img"+ separator + name.toLowerCase() + ".png";
         ImageIcon icon = new ImageIcon(getClass().getResource(filename));
         return icon.getImage();
     }

@@ -1,6 +1,8 @@
 package sweeper;
 
 
+import java.io.File;
+
 public class Game
 {
     private Bomb bomb;
@@ -25,11 +27,13 @@ public class Game
         bomb = new Bomb(bombs);
         flag = new Flag();
 
-        expl = new Audio("res/Sounds/explosion.wav",1.0);
-        klick = new Audio("res/Sounds/klick.wav",1.0);
-        mark = new Audio("res/sounds/mark.wav",1.0);
-        back = new Audio("res/sounds/fone.wav",0.8);
-        win = new Audio("res/Sounds/winsound.wav",1);
+        String separator = File.separator;
+
+        expl = new Audio("res" + separator + "Sounds" + separator + "explosion.wav",1.0);
+        klick = new Audio("res" + separator + "Sounds" + separator + "klick.wav",1.0);
+        mark = new Audio("res" + separator + "Sounds" + separator + "mark.wav",1.0);
+        back = new Audio("res" + separator + "Sounds" + separator + "fone.wav",0.8);
+        win = new Audio("res" + separator + "Sounds" + separator + "winsound.wav",1);
     }
 
     public void start()
